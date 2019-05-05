@@ -4,6 +4,7 @@ Lua program for NodeMCU open-source IoT platform.
 The code reads temperature and humidity from a DHT11/DHT22 sensor and serves it as HTML data to every browser consulting its IP.
 
 The data is also uploaded to ThingsBoard MQTT broker to be displayed on your web dashboard.
+![Web Dashboard](res/thingsboard_dashboard.png)
 
 ## Pre-requisites
 * A NodeMCU 2nd generation / v1.0 / V2 board (although it may work on any other board with ESP8266 ESP-12E module)
@@ -15,3 +16,6 @@ The data is also uploaded to ThingsBoard MQTT broker to be displayed on your web
 The .ini files have to be edited with your Wi-Fi access point and Thingsboard account configurations
 
 The DHT/AM data wire shall be plugged to D4 pin (or edit source code to use another pin)
+![Web Dashboard](res/Fritzing_sketch_bb.png)
+
+
